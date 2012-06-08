@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<cfsetting enablecfoutputonly="true" />
+
+<!--- @@displayname: $1 --->
+<!--- @@author: ${2:$TM_FULLNAME} --->
+
+<cfimport taglib="/farcry/core/tags/admin/" prefix="admin" />
+<cfimport taglib="/farcry/core/tags/formtools" prefix="ft" />
+
+<admin:header title="$1" />
+
+<ft:objectadmin 
+	typename="$3"
+	columnList="${4:label,datetimelastupdated}" 
+	sortableColumns="${5:label,datetimelastupdated}"
+	lFilterFields=""
+	sqlorderby="${6:label}" />
+
+<admin:footer />
+
+<cfsetting enablecfoutputonly="false" />
+]]></content>
+	<tabTrigger>customadmin</tabTrigger>
+	<description>FarCry Custom Admin</description>
+</snippet>

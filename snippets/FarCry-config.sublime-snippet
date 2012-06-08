@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfcomponent output="false" extends="farcry.core.packages.forms.forms" key="$1" displayname="$2" hint="$3">
+$0
+</cfcomponent>
+]]></content>
+	<tabTrigger>config</tabTrigger>
+	<description>FarCry Config Object</description>
+</snippet>
