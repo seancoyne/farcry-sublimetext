@@ -7,5 +7,6 @@ A collection of FarCry snippets for Sublime Text 2
 To install simply clone the repository into your Packages directory
 
 ```
-git clone [url here] FarCry
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+git clone git://github.com/seancoyne/farcry-sublimetext.git FarCry
 ```
