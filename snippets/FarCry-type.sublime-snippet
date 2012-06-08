@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfcomponent output="false" extends="farcry.core.packages.types.${1:types}" displayname="$2" hint="$3" bFriendly="${4:true}" bObjectBroker="${5:true}">
+$0
+</cfcomponent>
+]]></content>
+	<tabTrigger>type</tabTrigger>
+	<description>FarCry Custom Type</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfcomponent output="false" extends="farcry.core.packages.rules.rules" displayname="$1" hint="$2">
+$0
+</cfcomponent>
+]]></content>
+	<tabTrigger>rule</tabTrigger>
+	<description>FarCry Rule</description>
+</snippet>

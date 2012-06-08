@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<cfsetting enablecfoutputonly="true" />
+<!--- @@displayname: $1 --->
+<!--- @@author: ${2:$TM_FULLNAME} --->
+
+<cfimport taglib="/farcry/core/tags/webskin" prefix="skin" />
+
+$0
+
+<cfsetting enablecfoutputonly="false" />
+]]></content>
+	<tabTrigger>webskin</tabTrigger>
+	<description>FarCry Webskin</description>
+</snippet>

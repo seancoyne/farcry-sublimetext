@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<skin:buildLink objectid="$1"><cfoutput>$2</cfoutput></skin:buildLink>
+]]></content>
+	<tabTrigger>buildlink</tabTrigger>
+	<description>FarCry BuildLink Tag</description>
+</snippet>
