@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<skin:registerCSS id="$1" ${2:${3:baseHref="$4"} ${5:lFiles="$6"} ${7:prepend="$8"} ${9:append="$10"} ${11:condition="$12"} ${13:media="$14"} ${15:bCombine="${16:true}"} ${17:lCombineIds="$18"} ${19:hostname="$20"}} />
+]]></content>
+	<tabTrigger>registercss</tabTrigger>
+	<description>FarCry RegisterCSS tag</description>
+</snippet>
