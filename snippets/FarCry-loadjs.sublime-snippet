@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<skin:loadJs id="$1" ${2:${3:baseHref="$4"} ${5:lFiles="$6"} ${7:prepend="$8"} ${9:append="$10"} ${11:condition="$12"} ${13:bCombine="${14:true}"} ${15:lCombineIds="$16"} ${17:hostname="$18"}} />
+]]></content>
+	<tabTrigger>loadjs</tabTrigger>
+	<description>FarCry LoadJS tag</description>
+</snippet>

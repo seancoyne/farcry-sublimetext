@@ -1,9 +1,7 @@
 # FarCry - Sublime Text 2
-
 A collection of FarCry snippets for Sublime Text 2
 
 ## Installation
-
 To install simply clone the repository into your Packages directory
 
 ```
@@ -12,7 +10,6 @@ git clone git://github.com/seancoyne/farcry-sublimetext.git FarCry
 ```
 
 ## Usage
-
 There are several ways to insert a snippet.
 
 ### Menu
@@ -45,5 +42,4 @@ You can enter an objectid and press tab and you will see this:
 You can then enter the text for the link and press tab one last time which will move the cursor to the end of the line.
 
 ## Contributions
-
 If you have a snippet you would like to add please [fork](https://github.com/seancoyne/farcry-sublimetext/fork) the repository and send me a pull request.
