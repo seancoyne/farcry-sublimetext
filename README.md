@@ -2,7 +2,9 @@
 A collection of FarCry snippets for Sublime Text 2
 
 ## Installation
-To install simply clone the repository into your Packages directory
+The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control)
+
+To manually install simply clone the repository into your Packages directory
 
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
