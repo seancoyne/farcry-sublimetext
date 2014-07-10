@@ -1,5 +1,5 @@
-# FarCry - Sublime Text 2
-A collection of FarCry snippets for Sublime Text 2
+# FarCry - Sublime Text
+A collection of FarCry snippets for Sublime Text
 
 ## Installation
 The easiest way to install is via [Package Control](http://wbond.net/sublime_packages/package_control)
