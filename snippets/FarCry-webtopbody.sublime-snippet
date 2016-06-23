@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<cfsetting enablecfoutputonly="true" />
+
+<!--- @@displayname: $1 --->
+<!--- @@author: ${2:$TM_FULLNAME} --->
+
+<cfimport taglib="/farcry/core/tags/formtools" prefix="ft" />
+
+<ft:objectadmin 
+	typename="$3"
+	columnList="${4:label,datetimelastupdated}" 
+	sortableColumns="${5:label,datetimelastupdated}"
+	lFilterFields=""
+	sqlorderby="${6:label}" />
+
+<cfsetting enablecfoutputonly="false" />
+]]></content>
+	<tabTrigger>webtopbody</tabTrigger>
+	<description>FarCry Webtop Body</description>
+</snippet>
